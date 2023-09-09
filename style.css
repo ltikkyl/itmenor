@@ -1,20 +1,23 @@
-body{
+body {
   min-width: 600px;
-    font-family: 'font', sans-serif;
+  font-family: 'font', sans-serif;
 }
-.flex{
+
+.flex {
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
-.btn{
+
+.btn {
   padding: 5px;
   border: 0;
   background-color: transparent;
   cursor: pointer;
 }
-.calc{
+
+.calc {
   width: 320px;
   margin: 0 auto;
   padding: 20px;
@@ -23,7 +26,8 @@ body{
   background-color: #fff;
   border-radius: 10px;
 }
-.input_display{
+
+.input_display {
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
@@ -35,16 +39,18 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  }
+}
 
-.middlepanel{
+.middlepanel {
   margin-bottom: 10px;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+
 .numbers_btn,
 .operator_btn {
   width: 100%;
@@ -54,15 +60,18 @@ body{
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.equal_btn{
+
+.equal_btn {
   width: 100%;
   margin: 5px;
   font-size: 20px;
 }
+
 .clear {
   width: 100%;
 }
-.equal{
+
+.equal {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,24 +80,26 @@ body{
   background-color: #66cc66;
   cursor: pointer;
   transition: background-color 0.3s ease;
-
   border-radius: 10px;
 
 }
 
 .numbers_btn:hover,
 .operator_btn:hover,
-.clear:hover{
+.clear:hover {
   background-color: #eee;
 }
+
 .numbers_btn:active,
 .operator_btn:active,
-.clear:active{
+.clear:active {
   background-color: #ddd;
 }
+
 .equal:hover {
   background-color: aquamarine;
 }
+
 .equal:active {
   background-color: aqua;
 }
